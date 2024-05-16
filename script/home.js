@@ -21,7 +21,7 @@ async function listarEndereco(){
         if (response.hasOwnProperty('data')) {
           response.data.forEach(item => {
             const row = document.createElement("tr");
-            let dadosApi = ['title', 'cep', 'address', 'number']
+            let dadosApi = ['title', 'cep', 'address', 'number', 'complement']
             dadosApi.forEach(key => {
                 const cell = document.createElement("td");
                 cell.textContent = item[key] || ''; // Se o valor for nulo ou indefinido, exibe uma string vazia

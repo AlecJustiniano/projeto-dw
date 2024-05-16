@@ -19,6 +19,13 @@ a {
   justify-content: space-between;
 }
 
+button{
+  background-color: lightsalmon;
+  color: white;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
 header > ul {
   display: flex;
   padding: 10px;  
@@ -96,8 +103,8 @@ input[type=text], select {
  
 input[type=button] {
   width: 100%;
-  background-color: #4CAF50;
-  color: white;
+  background-color: lightpink;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;

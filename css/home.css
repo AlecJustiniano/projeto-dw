@@ -88,11 +88,20 @@ body{
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color:none;
   }
+
+    
+button{
+  background-color: lightsalmon;
+  color: white;
+  border-radius: 10%;
+  border: 1px solid, black;
+  cursor: pointer;
+}
