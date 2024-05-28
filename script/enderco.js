@@ -7,8 +7,8 @@ async function cadastrarEndereco(){
     let numero = document.getElementById("numero").value
     let complemento = document.getElementById("complemento").value
     
-    let tamanhoCep = cep.length;
-    if (apelido =="" || cep == ""|| endereco =="" || numero =="" || tamanhoCep > 5) {
+    
+    if (apelido =="" || cep == ""|| endereco =="" || numero =="" ) {
         alert("Por favor, preencha todos os campos.");
         return false;
     }
