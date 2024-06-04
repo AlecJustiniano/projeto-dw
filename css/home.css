@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(lightsalmon,  white);  
     margin: 0;
     color:black;
-  
+    margin-bottom: auto;
   }
   
   a {
@@ -51,6 +51,8 @@ body{
     
   }
   footer{
+    margin-top: 200px;
+    height: auto;
     background-color: linear-gradient(white, burlywood ) ;
     grid-column: 1/4;
   }
@@ -72,6 +74,8 @@ body{
     }
   
     footer{
+      height: auto;
+      margin-top: 100px;
       background-color: lightblue;
       grid-column: 1/4;
     }
@@ -85,6 +89,7 @@ body{
     width: 100px;
     height: 100px;
     background-color: linear-gradient(lightsalmon,  white);
+    margin-bottom: auto;
   }
   
   td, th {
@@ -93,7 +98,7 @@ body{
     padding: 8px;
   }
   
-  tr:nth-child(even) {
+  tr:nth-child(4) {
     background-color:none;
   }
 
